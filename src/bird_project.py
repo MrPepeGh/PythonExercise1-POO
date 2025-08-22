@@ -49,3 +49,8 @@ class Eagle(Bird):
         """
         logging.info(f"{self.name} está volando alto.")
         print(f"{self.name}: ¡Estoy volando alto!")
+
+if __name__ == "__main__":
+    Eagle1 = Eagle("Pablo",6)
+
+    Eagle1.birthday()
